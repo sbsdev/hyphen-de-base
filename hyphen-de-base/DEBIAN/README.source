@@ -1,0 +1,10 @@
+hyphen-de-base for Debian
+-------------------------
+
+This package contains upstream hyphenation directories for German.
+
+They were fetched from
+https://github.com/LibreOffice/dictionaries/tree/master/de and
+http://extensions.services.openoffice.org/en/projectrelease/german-de-de-1901-old-spelling-dictionaries-20160403
+
+ -- Christian Egli <christian.egli@sbs.ch>, Tue, 31 Jan 2017 17:48:56 +0100

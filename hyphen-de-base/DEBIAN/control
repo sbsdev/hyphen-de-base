@@ -1,0 +1,6 @@
+Package: hyphen-de-base
+Version: 1.0-1
+Maintainer: Christian Egli <christian.egli@sbs.ch>
+Architecture: all
+Depends: dictionaries-common
+Description: Base (upstream) hyphenation dictionaries for German

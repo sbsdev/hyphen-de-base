@@ -1,0 +1,30 @@
+#+TITLE: Base hyphenation dictionaries for German
+#+STARTUP: showall
+
+A crude Debian package for the German hyphenation dictionaries. These
+are upstream hyphenation dictionaries from the [[https://github.com/LibreOffice/dictionaries][Libreoffice
+dictionaries repo]] and the [[http://extensions.services.openoffice.org/en/projectrelease/german-de-de-1901-old-spelling-dictionaries-20160403][Apache OpenOffice extensions]] . They are used
+to generate more complete hyphenation dictionaries based on a
+hyphenation corpus in a database. This corpus is maintained using
+[[https://github.com/sbsdev/hyphen-keeper][hyphen-keeper]].
+
+This package is built from an existing file tree along the lines of
+this [[http://askubuntu.com/questions/146343/how-to-create-a-deb-package-that-installs-a-series-of-files][guide]].
+
+* Build
+
+Build the package simply by using make:
+
+    make
+
+* Install
+
+Install using the normal Debian package installation command:
+
+    dpkg -i hyphen-de-base_1.0-1_all.deb
+
+* License
+
+The hyphenation dictionaries are licensed under [[https://www.gnu.org/licenses/lgpl.html][LGPLv2.1+]] and
+[[https://www.gnu.org/licenses/lgpl.html][LGPLv2.0+]]. The Debian packaging is licensed under the [[http://www.gnu.org/licenses/gpl-3.0.html][GPLv3+]].
+
