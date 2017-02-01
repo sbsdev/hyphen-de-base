@@ -2,7 +2,7 @@ Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: hyphen-de
 Source: https://github.com/LibreOffice/dictionaries
 
-Files: */hyph_de_DE_OLDSPELL.dic
+Files: */*_OLDSPELL*.dic
 Copyright: Marco Huggenberger <marco@by-night.ch>
 	   Daniel Naber <naber@danielnaber.de>
 	   Karl Zeiler <karl.zeiler@t-online.de>

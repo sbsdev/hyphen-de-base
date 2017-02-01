@@ -1,5 +1,5 @@
 Package: hyphen-de-base
-Version: 1.0-1
+Version: 1.0-2
 Maintainer: Christian Egli <christian.egli@sbs.ch>
 Architecture: all
 Depends: dictionaries-common
