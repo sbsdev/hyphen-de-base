@@ -8,6 +8,12 @@ to generate more complete hyphenation dictionaries based on a
 hyphenation corpus in a database. This corpus is maintained using
 [[https://github.com/sbsdev/hyphen-keeper][hyphen-keeper]].
 
+Unfortunately we do not use the latest upstream versions of the
+hyphenation dictionaries. They seem to cause problems with the version
+of libhyphen installed on the deployment server, crashing the entire
+JVM. So for now we simply use the 'old' hyphenation dictionaries from
+https://github.com/sbsdev/sbs-hyphenation-tables.
+
 This package is built from an existing file tree along the lines of
 this [[http://askubuntu.com/questions/146343/how-to-create-a-deb-package-that-installs-a-series-of-files][guide]].
 
@@ -21,7 +27,7 @@ Build the package simply by using make:
 
 Install using the normal Debian package installation command:
 
-    dpkg -i hyphen-de-base_1.0-1_all.deb
+    dpkg -i hyphen-de-base_1.1-2_all.deb
 
 * License
 
